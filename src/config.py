@@ -75,3 +75,10 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 SQLITE_CACHE_DB = BASE_DIR / "cache.db"
+
+REQUIRED_JSON_KEYS: list[str] = [
+    "assessment",
+    "possible_conditions",
+    "recommendations",
+    "urgency_level",
+]
