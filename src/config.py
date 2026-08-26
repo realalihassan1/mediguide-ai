@@ -71,3 +71,7 @@ EMERGENCY_WARNING: str = (
 )
 
 URGENCY_LEVELS: list[str] = ["LOW", "MEDIUM", "HIGH", "EMERGENCY"]
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+SQLITE_CACHE_DB = BASE_DIR / "cache.db"
