@@ -1,0 +1,40 @@
+# Environment variables (contains API key - NEVER commit this)
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# LangChain SQLite cache
+.langchain_cache.db
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Byte-compiled / optimized
+*.pyc
+*.pyo
+
+# Logs
+*.log
